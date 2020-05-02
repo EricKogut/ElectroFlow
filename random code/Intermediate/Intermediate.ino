@@ -25,7 +25,7 @@ volatile int count; //This integer needs to be set as volatile to ensure it upda
  }
  
  void loop() {
-  // put your main code here, to run repeatedly:  
+
   count = 0;      // Reset the counter so we start counting from 0 again
   interrupts();   //Enables interrupts on the Arduino
   delay (10);   //Wait 0.1 second 
